@@ -1,0 +1,38 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lostId_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corner"
+    android:padding="16dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <ImageView
+        android:id="@+id/studentImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/images"
+        android:src="@drawable/user"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/studentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:paddingStart="70dp"
+        android:paddingEnd="0dp" />
+
+    <TextView
+        android:id="@+id/studentId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_below="@id/studentName"
+        android:paddingStart="70dp"
+        android:paddingEnd="0dp" />
+</RelativeLayout>

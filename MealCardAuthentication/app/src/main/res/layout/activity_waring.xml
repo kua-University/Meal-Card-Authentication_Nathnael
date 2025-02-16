@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayoutVertical1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/waring_two_bg" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutVertical1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/studentImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:contentDescription="@string/images"
+                android:src="@drawable/user" />
+
+            <TextView
+                android:id="@+id/studentName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text=""
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/StudentID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text=""
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/light_blue" />
+
+            <Button
+                android:id="@+id/btnReport"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Report"
+                android:backgroundTint="#39465F"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/go_back"
+                android:backgroundTint="@color/light_blue"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/FooterTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="@string/he_or_she_have_already_authenticated_for_this_meal_today"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

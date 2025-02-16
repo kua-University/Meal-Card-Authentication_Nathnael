@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutVertical1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top|center"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutVertical2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start|center"
+            android:background="@drawable/bg0">
+
+            <LinearLayout
+                android:id="@+id/LinearLayoutHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/userIcon"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:contentDescription="@string/images"
+                    android:src="@drawable/logo0" />
+
+                <TextView
+                    android:id="@+id/StudentFullName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/meal_card_authentication"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/StudentID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="@string/version_1_0_0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#8DABC3" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/AboutMealCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/about_meal_card_authentication"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextWarning"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/mainText"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:paddingHorizontal="20dp"
+            android:justificationMode="inter_word"/>
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_back"
+            android:backgroundTint="#3A6A97"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_gravity="center|end|bottom" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

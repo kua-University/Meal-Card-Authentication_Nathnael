@@ -1,0 +1,39 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corner"
+    android:padding="16dp"
+    android:layout_marginTop="20dp">
+
+    <ImageView
+        android:id="@+id/more_icon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/images"
+        android:src="@drawable/icon1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/foodTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:paddingStart="70dp"
+        android:paddingEnd="0dp"/>
+
+    <TextView
+        android:id="@+id/foodDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_below="@id/foodTitle"
+        android:paddingStart="70dp"
+        android:paddingEnd="0dp"/>
+
+</RelativeLayout>
