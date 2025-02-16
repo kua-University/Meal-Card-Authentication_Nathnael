@@ -1,8 +1,8 @@
 # Meal Card Authentication App
 ## Project Overview
 	The Meal Card Authentication App is an Android application designed to authenticate 
-     students using their University IDs QR Code. It provides a seamless and secure way
-     for service providers to verify when students want to access meal services.
+	students using their University IDs QR Code. It provides a seamless and secure way
+	for service providers to verify when students want to access meal services.
 ##  Features
 	* User authentication via QR Code. 
 	* MySQL database integration for user data storage.
@@ -59,12 +59,12 @@
 	* PHP – Backend API for database interaction.
 	* XAMPP – Local server for hosting PHP scripts.
 ##  Installation Guide
-- Set Up MySQL Database
+##### Set Up MySQL Database
 	Install XAMPP and start Apache & MySQL.
 	Open phpMyAdmin and create a database (meal_card_authentication).
 	Import all the provided SQL file in Database folder.
 	
-- Configure PHP Backend
+##### Configure PHP Backend
 	Copy the Server folder to htdocs inside XAMPP.
 	Open C:\xampp\apache\conf\extra and add the apache code to httpd-vhosts.conf
 	Open the hosts file located at C:\Windows\System32\drivers\etc and add the hosts code to hosts.
@@ -88,7 +88,7 @@
 # Note use your current IP address that your machine is connected to you can check by opening CMD and typing ipconfig then use the IP address written
 ```
 
-- Configure Android App
+##### Configure Android App
 	Open the MealCardAuthentication project in Android Studio
 	Build and run the app on an Android emulator or real device
 
