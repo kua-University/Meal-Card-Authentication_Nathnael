@@ -11,48 +11,48 @@
 ## 📂 Project Structure
 
 	MealCardAuthentication
-			 │── MealCardAuthentication
-			 │	    └──  app
-			 │           ├── manifests  
-			 │		       ├── java  
-			 │		       └── res  
-			 │		           ├── drawable  
-			 │		           ├── layout  
-			 │		           ├── mipmap  
-			 │		           ├── values  
-			 │		           └── xml  
-			 │── Server
-			 │	    ├── api
-			 │      │    ├── get
-			 │      │    │    ├── get_food_menu.php
-			 │      │    │    ├── get_lostID.php
-			 │      │    │    └── get_remark.php
-			 │      │    └── post
-			 │      │         ├── post_login.php
-			 │      │         ├── post_lost_item.php
-			 │      │         ├── post_meal_card_authenticate.php
-			 │      │         └── post_report.php
-			 │      ├──  include
-			 │      │     ├── db_connection.php
-			 │      │     └── meal_time.php
-			 │      ├── storage
-			 │      │    └── profile-picture
-			 │      │          ├──img-1.png
-			 │      │          ├──img-2.png
-			 │      │          ├──img-3.png
-			 │      │          └──img-4.png
-			 │      └──  tools
-			 │            └── Passkey_Hash.php
-			 ├──  Database
-			 │       ├── meal_card_authentication_user.sql
-			 │       ├── meal_card_authentication_student.sql
-			 │       ├── meal_card_authentication_food_menu.sql
-			 │       ├── meal_card_authentication_lost_id.sql
-			 │       ├── meal_card_authentication_remark.sql
-			 │       ├── meal_card_authentication_breakfast.sql
-			 │       ├── meal_card_authentication_lunch.sql
-			 │       └── meal_card_authentication_dinner.sql
-			 └── README.md 				
+	   │── MealCardAuthentication
+	   │	    └──  app
+	   │              ├── manifests  
+	   │	          ├── java  
+	   │              └── res  
+	   │	               ├── drawable  
+	   │		       ├── layout  
+	   │		       ├── mipmap  
+	   │		       ├── values  
+	   │		       └── xml  
+	   │── Server
+	   │	  ├── api
+	   │      │    ├── get
+	   │      │    │    ├── get_food_menu.php
+	   │      │    │    ├── get_lostID.php
+	   │      │    │    └── get_remark.php
+	   │      │    └── post
+	   │      │         ├── post_login.php
+	   │      │         ├── post_lost_item.php
+	   │      │         ├── post_meal_card_authenticate.php
+	   │      │         └── post_report.php
+	   │      ├──  include
+	   │      │     ├── db_connection.php
+	   │      │     └── meal_time.php
+	   │      ├── storage
+	   │      │    └── profile-picture
+	   │      │          ├──img-1.png
+	   │      │          ├──img-2.png
+	   │      │          ├──img-3.png
+	   │      │          └──img-4.png
+	   │      └──  tools
+	   │            └── Passkey_Hash.php
+	   ├──  Database
+	   │       ├── meal_card_authentication_user.sql
+	   │       ├── meal_card_authentication_student.sql
+	   │       ├── meal_card_authentication_food_menu.sql
+	   │       ├── meal_card_authentication_lost_id.sql
+	   │       ├── meal_card_authentication_remark.sql
+	   │       ├── meal_card_authentication_breakfast.sql
+	   │       ├── meal_card_authentication_lunch.sql
+	   │       └── meal_card_authentication_dinner.sql
+	   └── README.md 				
 ## Technologies Used
 	* Android (XML/Java) – Mobile app development.
 	* MySQL – Database to store user data and meal details.
